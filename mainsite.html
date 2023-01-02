@@ -2,49 +2,15 @@
 <html>
     <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=divice-width,initial-scale=1.0">
     <title>조주기능사</title>
     <link href="https://hangeul.pstatic.net/hangeul_static/css/NanumGangBuJangNimCe.css" rel="stylesheet">
-    <style>        
-    .botton{
-                text-decoration: none;
-                font-size: 4rem;
-                color:white;
-                padding:10px 20px 10px 20px;
-                margin:20px;
-                display:inline-block;
-                border-radius: 10px;
-                transition:all 0.1s;
-                text-shadow: 0px -2px rgba(0, 0, 0, 0.349);
-                font-family: 'NanumGangBuJangNimCe';
-               
-
-            }
-            .botton:active{
-                transform: translateY(3px);
-            }
-            .botton.wt{
-                background-color:rgb(42, 159, 228) ;
-                border-bottom:5px solid rgb(9, 69, 104);
-                margin-left: 30%;
-                margin-top: 70%;
-              
-            }
-            .botton.pt{
-                background-color:rgb(231, 47, 47) ;
-                border-bottom:5px solid rgb(126, 13, 13);
-              
-            }
-            .botton.wt:active{
-                border-bottom:2px solid rgb(9, 69, 104);
-            }
-        </style>
-
-  
+    <link rel="stylesheet" href="botton.css">
     </head>
     <body>
        
-        <a class="botton wt " href="#blue">필기시험</a>
-        <a class="botton pt " href="#red">실기시험</a>
+        <a class="botton wt " onclick="alert('준비중입니다')">필기시험</a>
+        <a class="botton pt " href="performancemain.html">실기시험</a>
        
 
     </html>

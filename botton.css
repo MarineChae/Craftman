@@ -1,0 +1,34 @@
+       
+.botton{
+            text-decoration: none;
+            font-size: 4rem;
+            color:white;
+            padding:10px 20px 10px 20px;
+            margin:20px;
+            display:inline-block;
+            border-radius: 10px;
+            transition:all 0.1s;
+            text-shadow: 0px -2px rgba(0, 0, 0, 0.349);
+            font-family: 'NanumGangBuJangNimCe';
+           
+
+        }
+        .botton:active{
+            transform: translateY(3px);
+        }
+        .botton.wt{
+            background-color:rgb(42, 159, 228) ;
+            border-bottom:5px solid rgb(9, 69, 104);
+           
+          
+        }
+        .botton.pt{
+            background-color:rgb(231, 47, 47) ;
+            border-bottom:5px solid rgb(126, 13, 13);
+                }
+        .botton.wt:active{
+            border-bottom:2px solid rgb(9, 69, 104);
+        }
+        .botton.pt:active{
+            border-bottom:2px solid rgb(9, 69, 104);
+        }
